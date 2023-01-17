@@ -6,9 +6,10 @@ type Props = {}
 class Document extends NextDocument<Props> {
   render() {
     return (
-      <Html lang="ja">     
-      <title>コロナ感染者数観測アプリ</title>
+      <Html lang="ja">   
+        
       <Head>
+        
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -32,18 +33,13 @@ class Document extends NextDocument<Props> {
         href="/favicons/safari-pinned-tab.svg"
         color="#5bbad5"
       />
-      <link rel="shortcut icon" href="/favicons/favicon.ico" />
+      <link rel="icon" href="/favicons/favicon.ico" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
-
-      <link rel="shortcut" href="../../public/favicon.ico" />
-
+      
       <meta charSet="utf-8" />
-
-      <meta name="description" content="ポートフォリオ用のサイトです。各国のコロナ感染者を観測するサイトです。" />
-      <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1, width=device-width, initial-scale=1" />
-      <meta name="keywords" content="コロナ ポートフォリオ" />
-      <meta name="google" content="nositelinkssearchbox" />
+      <meta name="keywords" content="demo demo2" />
+    
 
         </Head>
         <body>
